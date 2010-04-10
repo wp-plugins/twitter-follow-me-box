@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Twitter Follow Me Box ===
 Contributors: Rafael Cirolini
 Donate link: http://www.geniusdeveloper.com/
 Tags: twitter
@@ -45,3 +45,13 @@ Implementation of basic functionality
 1. ScreenShot 1
 2. ScreenShot 2
 3. ScreenShot 3
+
+== CREDIT ==
+
+This plugin was developed by Rafael Cirolini - http://www.geniusti.com.br
+
+== CONTACT ==
+
+Rafae=
+http://www.geniusdeveloper.com.br
+http://www.geniusti.com.br
