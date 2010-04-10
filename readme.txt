@@ -52,6 +52,6 @@ This plugin was developed by Rafael Cirolini - http://www.geniusti.com.br
 
 == CONTACT ==
 
-Rafae=
+Rafael Cirolini
 http://www.geniusdeveloper.com.br
 http://www.geniusti.com.br
