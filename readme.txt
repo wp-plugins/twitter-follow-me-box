@@ -1,6 +1,6 @@
 === Twitter Follow Me Box ===
 Contributors: Rafael Cirolini
-Donate link: http://www.geniusdeveloper.com/
+Donate link: http://www.geniusdeveloper.com.br/
 Tags: twitter
 Requires at least: 2.9.2
 Tested up to: 2.9.2
@@ -22,6 +22,12 @@ The plugin was written in jQuery (the original is only javascript), then it is n
 * Configure any options as desired, and then enable the plugin
 * That's it!
 
+== Screenshots ==
+
+1. Administrative panel on de color selection
+2. Administrative panel screen
+3. On the right side of the website the plugin entered a follow me on Twitter
+
 == Changelog ==
 
 = version 1.0 =
@@ -42,12 +48,6 @@ Transmission of the plugin for wordpress svn.
 
 = version 0.1 =
 Implementation of basic functionality
-
-== Screenshots ==
-
-1. ScreenShot 1
-2. ScreenShot 2
-3. ScreenShot 3
 
 == CREDIT ==
 
