@@ -24,9 +24,9 @@ The plugin was written in jQuery (the original is only javascript), then it is n
 
 == Screenshots ==
 
-1. ScreenShot 1
-2. ScreenShot 2
-3. ScreenShot 3
+1. Administrative panel on de color selection
+2. Administrative panel screen
+3. On the right side of the website the plugin entered a follow me on Twitter
 
 == Changelog ==
 
