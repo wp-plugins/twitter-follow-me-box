@@ -1,6 +1,6 @@
 === Twitter Follow Me Box ===
 Contributors: Rafael Cirolini
-Donate link: http://www.geniusdeveloper.com/
+Donate link: http://www.geniusdeveloper.com.br/
 Tags: twitter
 Requires at least: 2.9.2
 Tested up to: 2.9.2
