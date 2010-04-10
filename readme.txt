@@ -42,6 +42,6 @@ Implementation of basic functionality
 
 == Screenshots ==
 
-1. /tags/0.5/screen1.png
-2. /tags/0.5/screen2.png
-3. /tags/0.5/screen3.png
+1. ScreenShot 1
+2. ScreenShot 2
+3. ScreenShot 3
