@@ -3,10 +3,13 @@
 Plugin Name: Twitter Follow Me Box
 Plugin URI: http://www.geniusdeveloper.com.br/plugins/twitter-follow-me-box/
 Description: Creates a box "follow me" twitter without touching the template
-Version: 0.5 Beta
+Version: 1.0
 Author: Rafael Cirolini
 Author URI: http://www.geniusti.com.br
 License: GPL2
+
+--- Versãi 1.0 ---
+Envio para o svn do wordpress
 
 --- versão 0.5 ---
 Correção de nomeiclatura da versão e inserção de direitos autorais
