@@ -4,7 +4,7 @@ Donate link: http://www.geniusdeveloper.com/
 Tags: twitter
 Requires at least: 2.9.2
 Tested up to: 2.9.2
-Stable tag: twitter-follow-me-box
+Stable tag: trunk
 
 Creates a floating box with a follow me twitter. Without the need to modify the template.
 
