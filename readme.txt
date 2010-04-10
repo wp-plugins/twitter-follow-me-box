@@ -22,6 +22,12 @@ The plugin was written in jQuery (the original is only javascript), then it is n
 * Configure any options as desired, and then enable the plugin
 * That's it!
 
+== Screenshots ==
+
+1. ScreenShot 1
+2. ScreenShot 2
+3. ScreenShot 3
+
 == Changelog ==
 
 = version 1.0 =
@@ -42,12 +48,6 @@ Transmission of the plugin for wordpress svn.
 
 = version 0.1 =
 Implementation of basic functionality
-
-== Screenshots ==
-
-1. ScreenShot 1
-2. ScreenShot 2
-3. ScreenShot 3
 
 == CREDIT ==
 
