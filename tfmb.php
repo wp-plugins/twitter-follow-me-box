@@ -7,6 +7,24 @@ Version: 1.0
 Author: Rafael Cirolini
 Author URI: http://www.geniusti.com.br
 License: GPL2
+
+--- Versãi 1.0 ---
+Envio para o svn do wordpress
+
+--- versão 0.5 ---
+Correção de nomeiclatura da versão e inserção de direitos autorais
+
+--- versão 0.4 ---
+Correção de alguns nomes das funções.
+
+--- versão 0.3 ---
+Arrumado uma inserção incorreta do javascript.
+
+--- versão 0.2 ---
+Inserção de um color picker em jquery.
+
+--- versão 0.1 ---
+Implementação das funcionalidades basicas*/
 ?>
 <?php
 /*  Copyright 2010  Twitter Follow Me Box - Rafael Cirolini  (email : rafael@geniusti.com.br)
