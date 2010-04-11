@@ -30,8 +30,11 @@ The plugin was written in jQuery (the original is only javascript), then it is n
 
 == Changelog ==
 
+= version 1.1 =
+* Update version tag
+
 = version 1.0 =
-Transmission of the plugin for wordpress svn.
+* Transmission of the plugin for wordpress svn.
 
 = version 0.5 =
 * Fix version name 
