@@ -4,7 +4,7 @@ Donate link: http://www.geniusdeveloper.com.br/
 Tags: twitter
 Requires at least: 2.9.2
 Tested up to: 2.9.2
-Stable tag: 1.0
+Stable tag: trunk
 
 Creates a floating box with a follow me twitter. Without the need to modify the template.
 
@@ -30,8 +30,11 @@ The plugin was written in jQuery (the original is only javascript), then it is n
 
 == Changelog ==
 
+= version 1.1 =
+* Update version tag
+
 = version 1.0 =
-Transmission of the plugin for wordpress svn.
+* Transmission of the plugin for wordpress svn.
 
 = version 0.5 =
 * Fix version name 
