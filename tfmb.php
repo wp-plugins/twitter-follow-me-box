@@ -22,7 +22,7 @@ function tmfb_activate() {
 	add_option('tfmb_enable','0');
 	add_option('tfmb_color','000000');
 	add_option('tfmb_side','right');
-	add_option('tfmb_from_top','130px');
+	add_option('tfmb_from_top','130');
 }
 
 function tmfb_reg_jquery() {
