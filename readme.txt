@@ -30,6 +30,11 @@ The plugin was written in jQuery (the original is only javascript), then it is n
 
 == Changelog ==
 
+= version 1.2 =
+* Update name functions
+* Update register jquery
+* Update inicial options
+
 = version 1.1 =
 * Update version tag
 
