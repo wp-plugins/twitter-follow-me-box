@@ -8,9 +8,7 @@ Author: Rafael Cirolini
 Author URI: http://www.geniusti.com.br
 License: GPL2
 */
-?>
 
-<?php
 add_action('admin_menu', 'tfmb_add_menu');
 add_action('admin_init', 'tfmb_reg_function' );
 add_action('wp_head', 'tfmb_add_head'); 
