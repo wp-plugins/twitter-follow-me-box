@@ -3,58 +3,36 @@
 Plugin Name: Twitter Follow Me Box
 Plugin URI: http://www.geniusdeveloper.com.br/plugins-2/twitter-follow-me-box/?lang=en
 Description: Creates a box "follow me" twitter without touching the template
-Version: 1.0
+Version: 1.2
 Author: Rafael Cirolini
 Author URI: http://www.geniusti.com.br
 License: GPL2
-
---- Versãi 1.0 ---
-Envio para o svn do wordpress
-
---- versão 0.5 ---
-Correção de nomeiclatura da versão e inserção de direitos autorais
-
---- versão 0.4 ---
-Correção de alguns nomes das funções.
-
---- versão 0.3 ---
-Arrumado uma inserção incorreta do javascript.
-
---- versão 0.2 ---
-Inserção de um color picker em jquery.
-
---- versão 0.1 ---
-Implementação das funcionalidades basicas*/
-?>
-<?php
-/*  Copyright 2010  Twitter Follow Me Box - Rafael Cirolini  (email : rafael@geniusti.com.br)
- 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as
-    published by the Free Software Foundation.
- 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
- 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-?>
 
-<?php
-add_action('admin_menu', 'add_menu');
-add_action('admin_init', 'reg_function' );
-add_action('wp_head', 'add_head');
+add_action('admin_menu', 'tfmb_add_menu');
+add_action('admin_init', 'tfmb_reg_function' );
+add_action('wp_head', 'tfmb_add_head'); 
+add_action('init', 'tmfb_reg_jquery');
 
-function add_menu() {
-    $page = add_options_page('Fallow Me Options', 'Fallow Me Options', 'administrator', 'tfmb_menu', 'tfmb_menu_function');
-    add_action('admin_print_scripts-' . $page, 'admin_styles');
+register_activation_hook( __FILE__, 'tmfb_activate' );
+
+function tmfb_activate() {
+	add_option('tfmb_enable','0');
+	add_option('tfmb_color','000000');
+	add_option('tfmb_side','right');
+	add_option('tfmb_from_top','130');
 }
 
-function reg_function() {
+function tmfb_reg_jquery() {
+    wp_enqueue_script('jquery');            
+}    
+
+function tfmb_add_menu() {
+    $page = add_options_page('Fallow Me Options', 'Fallow Me Options', 'administrator', 'tfmb_menu', 'tfmb_menu_function');
+    add_action('admin_print_scripts-' . $page, 'tfmb_admin_styles');
+}
+
+function tfmb_reg_function() {
 	register_setting( 'tfmb-settings-group', 'tfmb_enable' );
 	register_setting( 'tfmb-settings-group', 'tfmb_twitter_account' );
 	register_setting( 'tfmb-settings-group', 'tfmb_color' );
@@ -64,14 +42,13 @@ function reg_function() {
 	wp_register_script('tfmb_colorpicker', WP_PLUGIN_URL . '/twitter-follow-me-box/picker/colorpicker.js', array('jquery'));
 }
 
-
-function admin_styles() {
+function tfmb_admin_styles() {
 	wp_enqueue_script ('jquery');
 	wp_enqueue_script('tfmb_colorpicker');
 }
 
-
-function add_head() {
+function tfmb_add_head() {
+	
 	$enable = get_option('tfmb_enable');
 	$twitter_account = get_option('tfmb_twitter_account');
 	$color = get_option('tfmb_color');
@@ -88,8 +65,9 @@ function add_head() {
 	}
 	
 	if ($enable == 1) {
+ 	
  	echo "
- 		<!-- by Twitter Follow Me Box -->
+ 		<!-- by Twitter Follow Me Box v1.1 -->
  		<script type=\"text/javascript\">
  			//<![CDATA[
   			jQuery(document).ready(function(){
@@ -98,7 +76,6 @@ function add_head() {
     			jQuery(\"#tfmBox\").click(function () { 
 			      window.open('http://twitter.com/$twitter_account/');
     			});
-
     		});
     		//]]>
   		</script>
@@ -108,7 +85,7 @@ function add_head() {
  	}
 }
 
-function verify_enable() {
+function tfmb_verify_enable() {
 	$enable = get_option('tfmb_enable');
 	
 	if ($enable == 1) {
@@ -116,14 +93,13 @@ function verify_enable() {
 	}
 }
 
-function verify_disable() {
+function tfmb_verify_disable() {
 	$enable = get_option('tfmb_enable');
 	
 	if ($enable == 0) {
 		echo "checked=\"checked\"";
 	}
 }
-
 
 function tfmb_menu_function() {
 ?>
@@ -167,12 +143,12 @@ function tfmb_menu_function() {
         <th scope="row">Enable</th>
         <td>
         	<label> 
-        		<input type="radio" value="1" <?php verify_enable(); ?> name="tfmb_enable">
+        		<input type="radio" value="1" <?php tfmb_verify_enable(); ?> name="tfmb_enable">
         		Enable
         	</label>
         	<br>
         	<label>
-        		<input type="radio" value="0" <?php verify_disable(); ?> name="tfmb_enable">
+        		<input type="radio" value="0" <?php tfmb_verify_disable(); ?> name="tfmb_enable">
         		Disable
         	</label>
         </td>
