@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Twitter Follow Me Box
-Plugin URI: http://www.geniusdeveloper.com.br/plugins-2/twitter-follow-me-box/?lang=en
+Plugin URI: http://www.nerdhead.com.br/en/twitter-follow-me-box-en/
 Description: Creates a box "follow me" twitter without touching the template
-Version: 1.3
+Version: 1.4
 Author: Rafael Cirolini
-Author URI: http://www.geniusti.com.br
+Author URI: http://www.nerdhead.com.br/en/
 License: GPL2
 */
 
