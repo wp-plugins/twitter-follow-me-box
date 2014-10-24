@@ -1,10 +1,10 @@
 === Twitter Follow Me Box ===
 Contributors: Rafael Cirolini
-Donate link: http://cirolini.com.br/
+Donate link: http://www.soumae.org/twitter-follow-box/
 Tags: twitter, twitter follow me box, jquery, follow me
 Requires at least: 2.9.2
 Tested up to: 2.9.2
-Stable tag: 2.0
+Stable tag: 2.1
 
 Creates a floating box with a follow me twitter. Without the need to modify the template.
 
@@ -62,10 +62,9 @@ Implementation of basic functionality
 
 == CREDIT ==
 
-This plugin was developed by Rafael Cirolini - http://www.geniusti.com.br
+This plugin was developed by Rafael Cirolini - http://www.soumae.org/twitter-follow-box/
 
 == CONTACT ==
 
 Rafael Cirolini
-http://www.geniusdeveloper.com.br
-http://www.geniusti.com.br
+http://www.soumae.org/
