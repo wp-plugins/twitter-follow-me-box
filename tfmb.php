@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Twitter Follow Me Box
-Plugin URI: http://www.soumae.org/twitter-follow-box/
+Plugin URI: http://www.cirolini.com.br/wordpress-plugin-twiiter-follow-me-box/
 Description: Creates a box "follow me" twitter without touching the template
 Version: 2.1
 Author: Rafael Cirolini
-Author URI: http://www.soumae.org/
+Author URI: http://www.cirolini.com.br/
 License: GPL2
 */
 
